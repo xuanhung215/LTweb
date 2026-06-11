@@ -9,20 +9,23 @@ import Footer  from "./components/Footer";
 import Toast   from "./components/Toast";
 import Particles from "./components/Particles";
 import BackButton from "./components/BackButton";
-import ChatWidget from "./components/ChatWidget";
+// import ChatWidget from "./components/ChatWidget";
 
 import HomePage          from "./pages/HomePage";
-// import ProductListPage   from "./pages/ProductListPage";   
+
+import ProductListPage   from "./pages/ProductListPage";   
 // import ProductDetailPage from "./pages/ProductDetailPage";
-// import CartPage          from "./pages/CartPage";
+import CartPage          from "./pages/CartPage";
 // import CheckoutPage      from "./pages/CheckoutPage";       
 // import OrderPage         from "./pages/OrderPage";          
-// import OrderDetailPage   from "./pages/OrderDetailPage";    
-// import AboutPage         from "./pages/AboutPage";
-// import ContactPage       from "./pages/ContactPage";
+// import OrderDetailPage   from "./pages/OrderDetailPage"; 
+
+import AboutPage         from "./pages/AboutPage";
+import ContactPage       from "./pages/ContactPage";
 import LoginPage         from "./pages/LoginPage";
 import RegisterPage      from "./pages/RegisterPage";
 // import ProfilePage       from "./pages/ProfilePage";
+
 // import PaymentResultPage from "./pages/PaymentResultPage";
 // import ResetPasswordPage from "./pages/ResetPasswordPage";
 // import BankingQRPage    from "./pages/BankingQRPage";
@@ -409,7 +412,7 @@ const App = () => {
       <Toast message={toast.message} visible={toast.visible} />
 
       {/* Chat Widget - Production Ready */}
-      <ChatWidget />
+      {/* <ChatWidget /> */}
     </div>
   );
 };
