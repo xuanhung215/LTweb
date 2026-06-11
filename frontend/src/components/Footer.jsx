@@ -13,7 +13,7 @@ const Footer = ({ navigate }) => {
             onClick={() => navigate("home")}
             style={{ cursor: "pointer" }}
           >
-            Pro<span>Fit</span>
+            Pro<span>Tech</span>
           </span>
           <p>
             Cung cấp các sản phẩm công nghệ chính hãng, uy tín hàng đầu Việt Nam.
@@ -29,11 +29,11 @@ const Footer = ({ navigate }) => {
         <div className="footer-col">
           <h4>Sản phẩm</h4>
           <ul>
-            <li><button onClick={() => navigate("products")}>Whey Protein</button></li>
-            <li><button onClick={() => navigate("products")}>Creatine</button></li>
-            <li><button onClick={() => navigate("products")}>Pre-Workout</button></li>
-            <li><button onClick={() => navigate("products")}>Vitamin & BCAA</button></li>
-            <li><button onClick={() => navigate("products")}>Mass Gainer</button></li>
+            <li><button onClick={() => navigate("products")}>Điện thoại</button></li>
+            <li><button onClick={() => navigate("products")}>Laptop</button></li>
+            <li><button onClick={() => navigate("products")}>Đồng hồ</button></li>
+            <li><button onClick={() => navigate("products")}>PC, Màn hình</button></li>
+            <li><button onClick={() => navigate("products")}>Phụ kiện</button></li>
           </ul>
         </div>
 

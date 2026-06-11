@@ -66,7 +66,7 @@ const Navbar = ({ currentPage, navigate, cartCount, user, onLogout }) => {
           e.currentTarget.style.letterSpacing = "3px";
         }}
       >
-        Pro<span style={{ color: "var(--white)" }}>Fit</span>
+        Pro<span style={{ color: "var(--white)" }}>Tech</span>
       </div>
 
       {/* Desktop Menu */}
